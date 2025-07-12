@@ -1,0 +1,91 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.navbar{display:flex;
+        align-items: center;
+     padding:20px;}
+nav{flex:1;
+text-align: right;}
+nav ul{display: inline-block;
+list-style-type: none;}
+nav ul li{display: inline-block;
+margin-right:20px;}
+a{text-decoration:none ;
+color: rgb(0, 0, 0);}
+h1{color:rgb(230, 42, 99) ;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+font-weight:30px;}
+p{color:rgb(230, 42, 99) ;
+font-family: Arial, Helvetica, sans-serif;
+font-size:20px;}
+
+
+.container{margin:auto;
+padding-left: 25px;
+padding-right: 25px;}
+
+.row{display: flex;
+align-content: center;
+}
+
+.col-2 img{
+    max-width: 100%;
+    height:max-content;
+padding-right: 25px;
+}
+.col-2 h1{margin-top: 75px;
+    padding-left:100px;
+}
+.col-2 p{padding-left:200px;
+margin-top:85px;}
+.btn{display: inline-block;
+background-color: rgb(243, 91, 36);
+padding: 8px 30px;
+border-radius:30px;
+margin-left: 300px;
+margin-top: 25px;
+}
+.btn:hover{background-color: rgb(136, 121, 121);}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.btn1{display: inline-block;
+background-color: rgba(241, 91, 36, 0.877);
+padding: 8px 218px;
+border-radius:30px;
+margin-left: 250px;
+margin-top: 35px;
+}
+.row-1{align-items: center;
+display:flex;}
+.col-3 p {padding-left: 252px;padding-top:35px;}
+.col-3 h1{padding-left: 250px;padding-top: 15px;font-size:xx-large;}
+.b1{display: flexbox;margin-left: 250px; margin-top: 35px;padding: 5px 50px;}
+.b1:hover{border-color: lightskyblue;}
+.sticker{ max-width: max-content;
+padding-right: 25px;}
+.btn2:hover{text-decoration-color: lightskyblue;text-decoration-line: underline;}
+.pwd{display: flex;align-items: center;padding-left: 600px;}
+.pwd:hover{text-decoration-color: lightskyblue;text-decoration-line: underline;}
+.row-2{display:flex;align-items: center;}
+.col-4 p{padding-left:200px;padding-top: 35px;}
+.b2{display: flex;margin-left: 200px; margin-top: 35px;padding: 5px 50px;}
+.btn3{display: inline-block;
+background-color: rgba(241, 91, 36, 0.877);
+padding: 8px 218px;
+border-radius:30px;
+margin-left: 200px;
+margin-top: 35px;}
+.b2:hover{border-color: lightskyblue;}
+.btn4:hover{text-decoration-color: lightskyblue;text-decoration: underline;}
+.contact{background-color: mistyrose; border-radius: 20px;border-color: indianred;height:30px;}
+.row-3{padding-left: 25px;}
+.pic{height:60px;}
+.col-5{display:inline-block;align-content: center;margin-left:0px;}
+.sticker2{height:400px;width:1300px;padding-top: 0px;}
+.app h1{background-color: lightpink;border-color: indianred;border-radius: 20px;font-family: cursive;}
+.row-2 p{font-family:cursive;}
+.row-2 img{margin-top: 0px; margin-right: 20px;}
