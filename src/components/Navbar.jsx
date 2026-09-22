@@ -20,7 +20,7 @@ function Navbar() {
           <Link to="/cart" className="relative text-gray-700 hover:text-black">
             <IoCart size={20} />
             {cartCount > 0 && (
-              <span className="ml-1 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-black px-1.5 text-xs text-white">
+              <span className="absolute -right-2 -top-3.5 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-emerald-900 px-1.5 text-xs text-white">
                 {cartCount}
               </span>
             )}
