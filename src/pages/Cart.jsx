@@ -109,7 +109,6 @@ function Cart() {
                         <button
                           onClick={() => dispatch(increaseQuantity(item.id))}
                           className="p-2 text-stone-600 transition hover:bg-stone-100"
-                          aria-label="Increase quantity"
                         >
                           <FiPlus size={15} />
                         </button>
